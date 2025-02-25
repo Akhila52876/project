@@ -95,7 +95,7 @@ public class Customer extends Restuarant {
     	  if(customer.equalsIgnoreCase("yes"))
     	  {
     		  System.out.println("Enter the item to remove:");
-    		  String item=sc.nextLine(); 
+    		  String item=sc.next(); 
     		  if(food.containsKey(item))
     		  {
     			 food.remove(item);
